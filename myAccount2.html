@@ -1,0 +1,1211 @@
+<!-- hero -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+  <!-- / <link rel="stylesheet" href="css/demo.css"> -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="css/jquery.flipster.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.flipster.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+  <style>
+    body {
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .link1 {
+      text-decoration: none;
+      color: rgb(240, 236, 236) !important;
+      padding: 5px;
+    }
+
+    .dropdown-menu {
+      color: #fff;
+      text-decoration: none;
+      background-color: rgba(194, 192, 192, 0.967);
+    }
+
+    .fontawesome1 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account {
+      font-size: 15px;
+      position: absolute;
+      top: -20px;
+      left: -40px;
+    }
+
+    .login {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .fontawesome2 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account2 {
+      font-size: 15px;
+      text-decoration: none;
+      position: absolute;
+      top: -2px;
+      left: 50px;
+      white-space: nowrap;
+    }
+
+    .join {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .links2 li a {
+      color: rgb(231, 246, 247);
+    }
+
+    .drop {
+      position: relative;
+    }
+
+    #drop-list4 {
+      display: none;
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 30%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      min-width: 7px;
+      margin-top: 5px;
+      right: 75%;
+      z-index: 1;
+      color: rgb(224, 240, 226);
+    }
+
+    #drop-list4 a {
+      color: black;
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    #drop-list4 a:hover {
+      color: red;
+    }
+
+    .drop {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 25%;
+      z-index: 1;
+    }
+
+    .drop a {
+      color: rgb(237, 248, 238);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop .links:hover {
+      color: red;
+    }
+
+    .links {
+      display: block;
+    }
+
+    .links4 {
+      display: block;
+    }
+
+    .drop2 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 15%;
+      z-index: 1;
+    }
+
+    .drop2 a {
+      color: rgb(240, 250, 243);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop2 a:hover {
+      color: red;
+    }
+
+    .drop3 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      left: 65%;
+      z-index: 1;
+    }
+
+    .drop3 a {
+      color: rgb(26, 255, 19);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .links4:hover {
+      color: red;
+    }
+
+    .drop3 li a:hover {
+      color: red;
+    }
+
+
+    /* sabreen syle */
+    /* profile page */
+    .tab {
+      /* float: left; */
+      border-left: 1px solid rgb(4, 231, 23);
+      border-bottom: 1px solid rgb(4, 231, 23);
+      padding-bottom: 10px;
+      height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      display: block;
+      background-color: inherit;
+      color: black;
+      padding: 22px 25px;
+      width: 100%;
+      border: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+      border-bottom: 2px solid rgb(4, 231, 23);
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      color: rgb(4, 231, 23);
+    }
+
+    /* Create an active/current "tab button" class */
+
+
+    /* Style the tab content */
+    .tabcontent {
+      /* float: left; */
+      padding: 0px 12px;
+      width: 100%;
+      border-left: none;
+      /* height: 300px; */
+    }
+
+    .heading {
+      border: 1px solid white;
+      padding-top: 15px;
+      background-color: rgb(4, 231, 23);
+      color: white;
+      font-weight: bolder;
+      width: 100%;
+    }
+
+    .heading p {
+      font-size: 20px;
+      font-weight: 700;
+      padding: 0 15px;
+    }
+
+    .page-link {
+      border: none !important;
+    }
+
+    .page-link:focus {
+      border: none;
+    }
+
+    #table td {
+      padding: 15px 0;
+    }
+
+    .order-dropdown {
+      display: inline-block;
+      border: none;
+      border-bottom: 1px solid #83ad43;
+      background-color: white;
+      color: #333;
+      margin: 10px;
+    }
+
+    .nontification-remove-link {
+      display: inline-block;
+      padding: 50px 10px 0px 10px;
+    }
+
+    @media screen and (max-width:920px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      @media screen and (max-width:920px) {
+        #drop-list2 {
+          width: 40%;
+        }
+
+        #drop-list4 {
+          width: 250px;
+          left: 0;
+        }
+
+        h3 {
+          font-size: 10px;
+        }
+
+        .links,
+        .links4 {
+          font-size: 10px;
+          margin-left: -40px;
+
+        }
+
+        h4 {
+          font-size: 15px;
+        }
+
+        #drop-list {
+          width: 50%;
+
+        }
+
+        #drop-list3 {
+          width: 200px;
+        }
+
+        table {
+          margin-left: -20px;
+
+        }
+
+        th {
+          font-size: 15px;
+          font-weight: normal;
+        }
+
+        td {
+          font-size: 15px;
+          font-weight: normal;
+        }
+
+        .product-margin img {
+          width: 70px;
+        }
+      }
+
+      @media screen and (max-width:1200px) {
+
+        .my-account,
+        .my-account2 {
+          font-size: 10px;
+        }
+      }
+
+      @media screen and (max-width:550px) {
+        .cart-2 {
+          margin-left: 20%;
+
+        }
+
+        .login,
+        .join {
+          font-size: 10px;
+        }
+
+        .best-offers {
+
+          margin-left: 15%;
+        }
+      }
+
+
+    }
+
+    @media screen and (max-width:994px) {
+      .my-account {
+        font-size: 10px;
+      }
+
+      .login {
+        right: 40%;
+        font-size: 10px;
+      }
+
+      .join {
+        font-size: 10px;
+      }
+
+      .cart-2 *:not(i) {
+        font-size: 10px;
+
+      }
+
+    }
+
+    @media screen and (max-width:575px) {
+      .accountmargin1 {
+        margin-left: 20%;
+        margin-top: 20px;
+      }
+
+      .accountmargin2 {
+        margin-top: 20px;
+        margin-left: 10%;
+      }
+
+      .best-offers {
+        margin-left: 8%;
+      }
+    }
+
+    @media screen and (max-width:550px) {
+      .cart-2 {
+        margin-left: 20%;
+      }
+
+      .login,
+      .join {
+        font-size: 10px;
+      }
+
+      th img {
+        width: 50px;
+      }
+    }
+
+    @media screen and (max-width:380px) {
+      .accountmargin1 {
+        margin-left: 0px;
+      }
+    }
+
+    /* End  */
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class=" col-6 bg-success">
+        <p class="text-white"> <i class="fas fa-bullhorn"></i> WHATEVER YOU HAVE GOT IN MIND WE HAVE GOT INSIDE </p>
+      </div>
+      <div class="col-6 bg-success ">
+        <span class="text-white"> <i class="fab fa-app-store-ios"></i> APP STORE</span>
+        <pre class="d-inline text-white"> <i class="fab fa-google-play text-white" ></i> GOOGLE PLAY </pre>
+        <ul>
+          <li id="drop" class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle link1" data-toggle="dropdown" id="dropdown"> ENG</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown">
+              <a class="dropdown-item" href="#"> English</a>
+              <a class="dropdown-item" href="#"> ARABIC</a>
+              <a class="dropdown-item" href="#"> SPANSH</a>
+              <a class="dropdown-item" href="#"> FRENCH</a>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li id="drop2" class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle link1 nav-link" data-toggle="dropdown" id="dropdown">USD </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown">
+              <a class="dropdown-item" href="#"> USD</a>
+              <a class="dropdown-item" href="#"> EUR</a>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 col-md-2 col-lg-1 mt-2">
+          <a href="index.html"> <img src="imges/time-logo.jpeg" alt="time-logo" width="100%"></a>
+        </div>
+        <div class="col-4 col-lg-2">
+          <select style="border: 1px solid rgb(123, 180, 255); width: 60%; position: absolute; right: 40%;"
+            class="btn form-control mt-2">
+            <option value="products"> PRODUCTS </option>
+            <option value="all"> SUPPLIER</option>
+            <option value="all"> ALL</option>
+          </select>
+        </div>
+        <div class="col-5 col-lg-3">
+          <form action="">
+            <input style="border: 1px solid rgb(123, 180, 255); position: absolute; right: 20%;" type="search"
+              placeholder="ENTER-YOUR-KEY" class="btn form-control mt-2"><i
+              style="position: absolute;top: 40%;left: 70%;" class="fa fa-fw fa-search"></i>
+          </form>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2 col-4 offset-sm-4 offset-lg-0 accountmargin1">
+          <i class="fas fa-address-card  text-success fontawesome1"></i>
+          <ul class="accountmargin">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle my-account" data-toggle="dropdown" id="dropdown">
+                MY-ACCOUNT</a>
+
+              <div class="dropdown-menu " aria-labelledby="dropdown">
+                <a class="dropdown-item" href="myAccount2.html"> <i class="fas fa-user-alt"></i>MY
+                  ACCOUNT</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> MY WISHES</a>
+                <a class="dropdown-item" href="order.html"> <i class="fas fa-not-equal"></i> COMPARE</a>
+
+                <a class="dropdown-item" href="check-out.html"> <i class="fas fa-check"></i> CHECKOUT</a>
+
+                <a class="dropdown-item" href="login.html"> <i class="fas fa-lock"></i> LOGIN</a>
+                <a class="dropdown-item" href="registration.html"> <i class="fas fa-user-circle"></i>
+                  CR-ACCOUNT</a>
+              </div>
+            </li>
+          </ul>
+          <p class="login"> LOGIN</p>
+        </div>
+        <div class=" col-lg-2 col-4 accountmargin2">
+          <i class="fas fa-shopping-cart  text-success fontawesome2"></i>
+          <a class="nav-link my-account2" href="#" class="dropdown-toggle " data-toggle="dropdown"> MY-cart</a>
+          <p class="join"> JOIN
+          <p>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-dark">
+      <div class="offset-lg-1 col-8 offset-sm-0">
+        <ul class="nav links2">
+          <li id="drop4" class="nav-item bg-success "><a href="#GATEGORIES" class="nav-link">GATEGORIES &nbsp;<i
+                class="fas fa-bars"> </i></a>
+            <ul id="drop-list4">
+              <li class="nav-item"> <a class="nav-link" href="category.html"> WOMENS CLOTHES <i
+                    class="fas fa-newspaper btn btn-outline-success"></i></a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> MENS CLOTHES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> PHONES & ECCESSORIES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> COMPUTER & OFFICE</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> CONSUMER ELCTRONICS</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> JEWELARY & WATCHES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> BAGES & SHOES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> VIEW ALL</a> </li>
+            </ul>
+
+          </li>
+          <li class="nav-item"><a href="index.html" class="nav-link ">HOME</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link">SHOP</a></li>
+          <li class="nav-item drop-list5 "><a href="#WOMEN" class="nav-link dropdown-toggle "
+              data-toggle="dropdown">WOMEN</a>
+            <div class="row drop">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">WOMENS</a>
+                <a class="links" href="#">MENS </a>
+                <a class="links" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links" href="#">COMPUTER</a>
+                <a class="links" href="#">CONSUMER </a>
+                <a class="links" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">BAGES</a>
+                <a class="links" href="#">sports </a>
+                <a class="links" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/banner05.jpg" alt="banner-item" width="100%" height="44%">
+            </div>
+
+
+          </li>
+          <li class="nav-item drop-list6"><a href="#MEN" class="nav-link dropdown-toggle" data-toggle="dropdown">MEN</a>
+            <div class="row drop2">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">WOMENS</a>
+                <a class="links" href="#">MENS </a>
+                <a class="links" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links" href="#">COMPUTER</a>
+                <a class="links" href="#">CONSUMER </a>
+                <a class="links" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">BAGES</a>
+                <a class="links" href="#">sports </a>
+                <a class="links" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/banner-account.jpg" alt="banner-img" width="100%" height="44%">
+            </div>
+
+          </li>
+          <li class="nav-item"><a href="product.html" class="nav-link">SALES</a></li>
+          <li class="nav-item drop-list7"><a href="#PAGES" class="nav-link dropdown-toggle"
+              data-toggle="dropdown">PAGES</a>
+
+            <div class="row drop3">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links4" href="#">WOMENS</a>
+                <a class="links4" href="#">MENS </a>
+                <a class="links4" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links4" href="#">COMPUTER</a>
+                <a class="links4" href="#">CONSUMER </a>
+                <a class="links4" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links4" href="#">BAGES</a>
+                <a class="links4" href="#">sports </a>
+                <a class="links4" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/ad.jpg" alt="img-ad" width="100%" height="44%">
+            </div>
+
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <section class="container pt-5">
+    <div class="row">
+      <div class="tab col-md-3">
+        <button class="tablinks" onclick="openCity(event, 'myaccount')" id="defaultOpen">>>My account</button>
+        <button class="tablinks" onclick="openCity(event, 'myaorders')">>>My orders</button>
+        <button class="tablinks" onclick="openCity(event, 'myfavourits')">>>my favourits</button>
+        <button class="tablinks" onclick="openCity(event, 'nontification')">>>nontificatoin</button>
+      </div>
+
+
+      <div class="col-md-9">
+        <div id="myaorders" class="tabcontent">
+          <div class="heading">
+            <p>Manage Orders</p>
+          </div>
+          <div class="pull-right text-right">
+            <div class="dropdown show order-dropdown">
+              <a class="m-2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" style="display: inline-block;">
+              <ul class="pagination">
+                <li>
+                  <p class="page-link" style="color: black !important;" href="#">page : </p>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+              </ul>
+            </nav>
+          </div>
+          <table class="table table-hover">
+
+            <tbody>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p> <i class="far fa-calendar-alt"></i> 25june 2000</p>
+                  <p><i class="fas fa-check-circle"></i> delivered</p>
+                </td>
+                <td>
+                  <p><i class="fas fa-info-circle"></i> Details </p>
+                  <i class="fas fa-pound-sign"></i>250 egp
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p> <i class="far fa-calendar-alt"></i> 25june 2000</p>
+                  <p><i class="fas fa-check-circle"></i> delivered</p>
+                </td>
+                <td>
+                  <p><i class="fas fa-info-circle"></i> Details </p>
+                  <i class="fas fa-pound-sign"></i>250 egp
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p> <i class="far fa-calendar-alt"></i> 25june 2000</p>
+                  <p><i class="fas fa-check-circle"></i> delivered</p>
+                </td>
+                <td>
+                  <p><i class="fas fa-info-circle"></i> Details </p>
+                  <i class="fas fa-pound-sign"></i>250 egp
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p> <i class="far fa-calendar-alt"></i> 25june 2000</p>
+                  <p><i class="fas fa-check-circle"></i> delivered</p>
+                </td>
+                <td>
+                  <p><i class="fas fa-info-circle"></i> Details </p>
+                  <i class="fas fa-pound-sign"></i>250 egp
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div id="myaccount" class="tabcontent">
+          <div class="heading">
+            <p>Manage Account</p>
+          </div>
+          <div class="pt-2">
+            <table id="table" class="table table-hover ">
+
+              <tbody>
+                <tr>
+                  <th scope="row">Account ID</th>
+                  <td colspan="2" r>ABC-123165</td>
+
+
+                </tr>
+                <tr>
+                  <th scope="row">Name</th>
+                  <td colspan="2">AHMED</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">Password</th>
+                  <td colspan="2">********</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">Email</th>
+                  <td colspan="2">AHMED@gmail.com</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">shopping cart</th>
+                  <td colspan="2">125 ABC st</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">phone</th>
+                  <td colspan="2">0100</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">job Title</th>
+                  <td colspan="2">front end developer</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">company</th>
+                  <td colspan="2">senior steps</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">Gender</th>
+                  <td colspan="2">male</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">postal code</th>
+                  <td colspan="2">21651</td>
+                  <td><i class="fas fa-edit btn btn-outline-success"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+        <div id="myfavourits" class="tabcontent">
+          <div class="heading">
+            <p>favourit items</p>
+          </div>
+          <table class="table table-hover">
+
+            <tbody>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  >>250 egp
+                  <p><i class="fas fa-heart"></i></i> favourits </p>
+
+                </td>
+                <td>
+                  <p><button class="Shop-now btn btn-outline-success">Buy now</button> </p>
+                  <p><i class="far fa-trash-alt"></i><span class="pl-2"> Remove</span></p>
+
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  >>250 egp
+                  <p><i class="fas fa-heart"></i></i> favourits </p>
+
+                </td>
+                <td>
+                  <p><button class="Shop-now btn btn-outline-success">Buy now</button> </p>
+                  <p><i class="far fa-trash-alt"></i><span class="pl-2"> Remove</span></p>
+
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  >>250 egp
+                  <p><i class="fas fa-heart"></i></i> favourits </p>
+
+                </td>
+                <td>
+                  <p><button class="Shop-now btn btn-outline-success">Buy now</button> </p>
+                  <p><i class="far fa-trash-alt"></i><span class="pl-2"> Remove</span></p>
+
+                </td>
+
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/shop/order-1.jpg" alt=""></th>
+                <td>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  >>250 egp
+                  <p><i class="fas fa-heart"></i></i> favourits </p>
+
+                </td>
+                <td>
+                  <p><button class="Shop-now btn btn-outline-success">Buy now</button> </p>
+                  <p><i class="far fa-trash-alt"></i><span class="pl-2"> Remove</span></p>
+
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="nontification" class="tabcontent">
+          <div class="heading">
+            <p>nontification</p>
+          </div>
+          <div class="pull-right">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li>
+                  <p class="page-link" style="color: black !important;" href="#">page : </p>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+              </ul>
+            </nav>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+                <td>
+                  <h3><i class="far fa-bell"></i> New products</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum impedit quo fuga numquam tempore
+                    excepturi!</p>
+                </td>
+                <td>
+                  <div><a class="nontification-remove-link" href="">Remove</a></div>
+                </td>
+
+              </tr>
+              <tr>
+
+                <td>
+                  <h3><i class="far fa-bell"></i> New offers</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum impedit quo fuga numquam tempore
+                    excepturi!</p>
+                </td>
+                <td>
+                  <div><a class="nontification-remove-link" href="">Remove</a></div>
+                </td>
+
+              </tr>
+              <tr>
+
+                <td>
+                  <h3><i class="far fa-bell"></i> subscribe now</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum impedit quo fuga numquam tempore
+                    excepturi!</p>
+                </td>
+                <td>
+                  <div><a class="nontification-remove-link" href="">Remove</a></div>
+                </td>
+
+              </tr>
+              <tr>
+
+                <td>
+                  <h3><i class="far fa-bell"></i> New year</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum impedit quo fuga numquam tempore
+                    excepturi!</p>
+                </td>
+                <td>
+                  <div><a class="nontification-remove-link" href="">Remove</a></div>
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+  <section>
+    <div class="container">
+      <div class="row product-margin">
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last1.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last2.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last3.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last4.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last5.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last6.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last7.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last8.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last9.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last10.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last11.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last12.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row product-margin">
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last1.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last2.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last3.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last4.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last5.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last6.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last7.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last8.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last9.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last10.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last11.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-4"><img src="imges/last12.jpg" alt="" width="90px" class="rounded">
+          <span> 32.50EGP</span>
+          <span> PRODUCT</span>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <section class="bg-5">
+    <h5 class="text-center text-success">
+      CONTACT-US
+    </h5>
+    <h5 class="text-center text-success">
+      WE WOULD LOVE TO HEAR FROM YOU
+    </h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 ">
+          <input type="text" placeholder="INTER YOUR NAME" class="form-control">
+          <input type="text" placeholder="INTER YOUR EMAIL" class="form-control mt-2">
+          <input type="text" placeholder="INTER YOUR SUBJECT" class="form-control mt-2">
+          <textarea rows="5" class="form-control mt-2">INTER YOUR MESSAGE
+          </textarea>
+          <input type="button" value="SEND YUOR MESSAGE" class="btn btn-success mt-2">
+        </div>
+        <div class="col-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.72974024108!2d31.44337506520266!3d30.032617220854974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2z2YXYr9mK2YbYqSDZhti12LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1616524581860!5m2!1sar!2seg"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+  </section>
+  <section class="bg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum, et aspernatur omnis
+            ad,!</p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-google-plus-square"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>
+        <div class="col-3">
+          <h4>
+            ABOUT-US
+          </h4>
+          <i class="fas fa-map-marker-alt"></i> LOCATION ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+          eum, et aspernatur omnis ad
+          <br>
+          <i class="fas fa-phone-square "></i> <span>01032018555</span>
+          <br>
+          <i class="fas fa-envelope-square"></i> <span>INFO@MAIL.COM</span>
+
+        </div>
+        <div class="col-3">
+          <h4>Customer Serves</h4>
+          <p>ABOUT-US</p>
+          <p>SHIPING & RETURN</p>
+          <p>SHIPING GUIDE</p>
+          <p>FAQ</p>
+        </div>
+        <div class="col-3">
+          <h3>Stay Conected</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum, et aspernatur omnis ad,!</p>
+          <input type="text" placeholder="ENTER EMAIL ADDRESS " class="form-control">
+
+          <input type="button" value="SEND" id="" class="btn btn-success mt-2 form-control">
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+  </section>
+  <script>
+    $(document).ready(function () {
+      $(".drop").hide();
+      $(".drop2").hide();
+      $(".drop3").hide();
+    });
+
+    $("#drop4").click(function () {
+      $("#drop-list4").toggle();
+    });
+    $(".drop-list5").on('click', function () {
+      $(".drop").toggle();
+    });
+    $(".drop-list6").on('click', function () {
+      $(".drop2").toggle();
+    });
+    $(".drop-list7").on('click', function () {
+      $(".drop3").toggle();
+    });
+
+
+  </script>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+
+</html>

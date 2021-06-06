@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+  <title>Document</title>
+  <!-- / <link rel="stylesheet" href="css/demo.css"> -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="css/jquery.flipster.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/jpg" href="imges/ba" />
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.flipster.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <style>
+    body {
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      height: 1500px;
+      width: 100%;
+    }
+
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .link1 {
+      text-decoration: none;
+      color: rgb(240, 236, 236) !important;
+      padding: 5px;
+    }
+
+    .dropdown-menu {
+      color: #fff;
+      text-decoration: none;
+      background-color: rgba(194, 192, 192, 0.967);
+    }
+
+    .fontawesome1 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account {
+      font-size: 15px;
+      position: absolute;
+      top: -20px;
+      left: -40px;
+    }
+
+    .login {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .fontawesome2 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account2 {
+      font-size: 15px;
+      text-decoration: none;
+      position: absolute;
+      top: -2px;
+      left: 50px;
+      white-space: nowrap;
+    }
+
+    .join {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .links2 li a {
+      color: rgb(231, 246, 247);
+    }
+
+    .drop {
+      position: relative;
+    }
+
+    #drop-list4 {
+      display: none;
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 30%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      min-width: 7px;
+      margin-top: 5px;
+      right: 75%;
+      z-index: 1;
+      color: rgb(224, 240, 226);
+    }
+
+    #drop-list4 a {
+      color: black;
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    #drop-list4 a:hover {
+      color: red;
+    }
+
+    .drop {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 25%;
+      z-index: 1;
+    }
+
+    .drop a {
+      color: rgb(237, 248, 238);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop .links:hover {
+      color: red;
+    }
+
+    .links {
+      display: block;
+    }
+
+    .links4 {
+      display: block;
+    }
+
+    .drop2 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 15%;
+      z-index: 1;
+    }
+
+    .drop2 a {
+      color: rgb(240, 250, 243);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop2 a:hover {
+      color: red;
+    }
+
+    .drop3 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      left: 65%;
+      z-index: 1;
+    }
+
+    .drop3 a {
+      color: rgb(26, 255, 19);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .links4:hover {
+      color: red;
+    }
+
+    .drop3 li a:hover {
+      color: red;
+    }
+
+    .div-border {
+      border: 15px solid #28a745;
+
+    }
+
+    .div2-border {
+      border: 15px solid #343a40;
+    }
+
+    .range-filter {
+      padding-top: 10px;
+      width: 220px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    .range-controls {
+      position: relative;
+      height: 80px;
+      margin-bottom: 15px;
+      padding: 0 30px;
+      background: #34495e;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .scale {
+      margin-top: 39px;
+      height: 2px;
+      background: #d7dcde;
+    }
+
+    .bar {
+      height: 2px;
+      background: #00ca74;
+    }
+
+    .toggle {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width: 4px;
+      height: 4px;
+      border: 8px solid white;
+      background: #ababab;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .min-toggle {
+      left: 70px;
+    }
+
+    .max-toggle {
+      left: 165px;
+    }
+
+    .price-controls input {
+      width: 45px;
+      padding: 8px 10px;
+      margin-left: 10px;
+      border: none;
+      background: #34495e;
+      font-size: 16px;
+      font-family: "Tahoma", sans-serif;
+      text-align: center;
+      color: #283136;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .min-price {
+      margin-right: 14px;
+    }
+
+    #red {
+      color: #e94545d7
+    }
+
+    #teal {
+      color: rgb(69, 129, 129)
+    }
+
+    #blue {
+      color: #0000ff
+    }
+
+    .green-label {
+      background-color: #defadb;
+      color: #48b83e;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      margin: 0 3px
+    }
+
+    .radio,
+    .checkbox {
+      padding: 6px 10px
+    }
+
+    .border {
+      border-radius: 12px
+    }
+
+    .options {
+      position: relative;
+      padding-left: 25px
+    }
+
+    .radio label,
+    .checkbox label {
+      display: block;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0
+    }
+
+    .options input {
+      opacity: 0
+    }
+
+    .checkmark {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 50%
+    }
+
+    .options input:checked~.checkmark:after {
+      display: block
+    }
+
+    .options .checkmark:after {
+      content: "";
+      width: 9px;
+      height: 9px;
+      display: block;
+      background: white;
+      position: absolute;
+      top: 52%;
+      left: 51%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      transition: 300ms ease-in-out 0s
+    }
+
+    .options input[type="radio"]:checked~.checkmark {
+      background: #61b15a;
+      transition: 300ms ease-in-out 0s
+    }
+
+    .options input[type="radio"]:checked~.checkmark:after {
+      transform: translate(-50%, -50%) scale(1)
+    }
+
+    .count {
+      font-size: 0.8rem
+    }
+
+    label {
+      cursor: pointer
+    }
+
+    .tick {
+      display: block;
+      position: relative;
+      padding-left: 23px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      margin: 0
+    }
+
+    .tick input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0
+    }
+
+    .check {
+      position: absolute;
+      top: 1px;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 3px
+    }
+
+    .tick:hover input~.check {
+      background-color: #f3f3f3
+    }
+
+    .tick input:checked~.check {
+      background-color: #61b15a
+    }
+
+    .check:after {
+      content: "";
+      position: absolute;
+      display: none
+    }
+
+    .tick input:checked~.check:after {
+      display: block;
+      transform: rotate(45deg) scale(1)
+    }
+
+    .tick .check:after {
+      left: 6px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg) scale(2)
+    }
+
+    .fa-star {
+      color: yellow;
+    }
+
+    .green-shadow {
+      /* box-shadow: 1px 2px 10px rgb(134, 247, 4); */
+      box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
+      transition: 0.4s;
+      border-radius: 5%;
+    }
+
+    .green-shadow:hover {
+      transform: translateY(-5px);
+    }
+
+    .grid-system {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-areas: "offer-1 offer-1 offer-1 offer-2 offer-2  offer-2""offer-1 offer-1 offer-1 offer-2 offer-2  offer-2""offer-1 offer-1 offer-1 offer-3 offer-3 offer-3""offer-1 offer-1 offer-1 offer-3 offer-3 offer-3";
+    }
+
+    .offer-1 {
+      grid-area: offer-1;
+    }
+
+    .offer-2 {
+      grid-area: offer-2;
+    }
+
+    .offer-3 {
+      grid-area: offer-3;
+    }
+
+    .ads {
+      position: absolute;
+      top: 35%;
+      left: 25%;
+    }
+
+    .ads-2 {
+      position: absolute;
+      top: 15%;
+      left: 67%;
+    }
+
+    .ads-3 {
+      position: absolute;
+      top: 65%;
+      left: 67%;
+    }
+
+    @media screen and (max-width:1200px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .my-account,
+      .my-account2 {
+        font-size: 10px;
+      }
+    }
+
+    @media screen and (max-width:994px) {
+      .my-account {
+        font-size: 10px;
+      }
+
+      .login {
+        right: 40%;
+        font-size: 10px;
+      }
+
+      .join {
+        font-size: 10px;
+      }
+
+      .cart-2 *:not(i) {
+        font-size: 10px;
+      }
+    }
+
+    @media screen and (max-width:920px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .ads {
+        top: 25%;
+        left: 15%;
+      }
+
+      .ad-2,
+      .ad-3 {
+        font-size: 10px;
+      }
+
+      #drop-list2 {
+        width: 40%;
+      }
+
+      #drop-list4 {
+        width: 250px;
+        left: 0;
+      }
+
+      h3 {
+        font-size: 10px;
+      }
+
+      .links,
+      .links4 {
+        font-size: 10px;
+        margin-left: -40px;
+      }
+
+      h4 {
+        font-size: 15px;
+      }
+
+      .font-weight-bold {
+        font-size: 10px;
+      }
+
+      .list-group {
+        width: 100px;
+      }
+
+      .range-filter {
+        width: 150px;
+      }
+
+      .min-toggle {
+        left: 40px;
+      }
+
+      .max-toggle {
+        left: 120px;
+      }
+
+      .font-size-sm {
+        font-size: 10px;
+
+      }
+
+      .price-controls input {
+        width: 30px;
+      }
+
+    }
+
+    @media screen and (max-width:575px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .accountmargin1 {
+        margin-left: 20%;
+        margin-top: 20px;
+      }
+
+      .accountmargin2 {
+        margin-top: 20px;
+        margin-left: 10%;
+      }
+
+      .best-offers {
+        margin-left: 8%;
+      }
+    }
+
+    @media screen and (max-width:550px) {
+      .cart-2 {
+        margin-left: 20%;
+      }
+
+      .login,
+      .join {
+        font-size: 10px;
+      }
+
+      .img-shop {
+        width: 150px;
+      }
+    }
+
+    @media screen and (max-width:380px) {
+
+      body {
+        overflow-x: hidden;
+      }
+
+      .accountmargin1 {
+        margin-left: 0px;
+      }
+
+      .accountmargin {
+        position: relative;
+        bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .my-account2,
+      .join {
+        margin-top: 5px;
+      }
+
+      .login,
+      .my-account {
+        margin-top: 2px;
+
+      }
+
+      .img-shop {
+        width: 100px;
+      }
+
+      .div2-border img {
+        height: 500px;
+
+      }
+    }
+
+    @media(min-width:768px) and (max-width:991px) {
+
+      .radio,
+      .checkbox {
+        padding: 6px 10px;
+        width: 49%;
+        float: left;
+        margin: 5px 5px 5px 0px
+      }
+
+      .filter,
+      #mobile-filter {
+        display: none
+      }
+    }
+
+    @media screen and (max-width:320px) {
+      .div2-border img {
+        height: 700px;
+
+      }
+
+      .img-shop {
+        width: 100px;
+        margin-left: -10px;
+      }
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <section>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class=" col-6 bg-success">
+          <p class="text-white"> <i class="fas fa-bullhorn"></i> WHATEVER YOU HAVE GOT IN MIND WE HAVE GOT INSIDE </p>
+        </div>
+        <div class="col-6 bg-success ">
+          <span class="text-white"> <i class="fab fa-app-store-ios"></i> APP STORE</span>
+          <pre class="d-inline text-white"> <i class="fab fa-google-play text-white" ></i> GOOGLE PLAY </pre>
+          <ul>
+            <li id="drop" class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle link1" data-toggle="dropdown" id="dropdown"> ENG</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown">
+                <a class="dropdown-item" href="#"> English</a>
+                <a class="dropdown-item" href="#"> ARABIC</a>
+                <a class="dropdown-item" href="#"> SPANSH</a>
+                <a class="dropdown-item" href="#"> FRENCH</a>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li id="drop2" class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle link1 nav-link" data-toggle="dropdown" id="dropdown">USD </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown">
+                <a class="dropdown-item" href="#"> USD</a>
+                <a class="dropdown-item" href="#"> EUR</a>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-md-2 col-lg-1 mt-2">
+            <a href="index.html"> <img src="imges/time-logo.jpeg" alt="time-logo" width="100%"></a>
+          </div>
+          <div class="col-4 col-lg-2">
+            <select style="border: 1px solid rgb(123, 180, 255); width: 60%; position: absolute; right: 40%;"
+              class="btn form-control mt-2">
+              <option value="products"> PRODUCTS </option>
+              <option value="all"> SUPPLIER</option>
+              <option value="all"> ALL</option>
+            </select>
+          </div>
+          <div class="col-5 col-lg-3">
+            <form action="">
+              <input style="border: 1px solid rgb(123, 180, 255); position: absolute; right: 20%;" type="search"
+                placeholder="ENTER-YOUR-KEY" class="btn form-control mt-2"><i
+                style="position: absolute;top: 40%;left: 70%;" class="fa fa-fw fa-search"></i>
+            </form>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2 col-4 offset-sm-4 offset-lg-0 accountmargin1">
+            <i class="fas fa-address-card  text-success fontawesome1"></i>
+            <ul class="accountmargin">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle my-account" data-toggle="dropdown" id="dropdown">
+                  MY-ACCOUNT</a>
+
+                <div class="dropdown-menu " aria-labelledby="dropdown">
+                  <a class="dropdown-item" href="myAccount2.html"> <i class="fas fa-user-alt"></i>MY
+                    ACCOUNT</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> MY WISHES</a>
+                  <a class="dropdown-item" href="order.html"> <i class="fas fa-not-equal"></i> COMPARE</a>
+
+                  <a class="dropdown-item" href="check-out.html"> <i class="fas fa-check"></i> CHECKOUT</a>
+
+                  <a class="dropdown-item" href="login.html"> <i class="fas fa-lock"></i> LOGIN</a>
+                  <a class="dropdown-item" href="registration.html"> <i class="fas fa-user-circle"></i>
+                    CR-ACCOUNT</a>
+                </div>
+              </li>
+            </ul>
+            <p class="login"> LOGIN</p>
+          </div>
+          <div class=" col-lg-2 col-4 accountmargin2">
+            <i class="fas fa-shopping-cart  text-success fontawesome2"></i>
+            <a class="nav-link my-account2" href="#" class="dropdown-toggle " data-toggle="dropdown"> MY-cart</a>
+            <p class="join"> JOIN
+            <p>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-dark">
+        <div class="offset-lg-1 col-8 offset-sm-0">
+          <ul class="nav links2">
+            <li id="drop4" class="nav-item bg-success "><a href="#GATEGORIES" class="nav-link">GATEGORIES &nbsp;<i
+                  class="fas fa-bars"> </i></a>
+              <ul id="drop-list4">
+                <li class="nav-item"> <a class="nav-link" href="category.html"> WOMENS CLOTHES <i
+                      class="fas fa-newspaper btn btn-outline-success"></i></a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> MENS CLOTHES</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> PHONES & ECCESSORIES</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> COMPUTER & OFFICE</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> CONSUMER ELCTRONICS</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> JEWELARY & WATCHES</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> BAGES & SHOES</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> VIEW ALL</a> </li>
+              </ul>
+
+            </li>
+            <li class="nav-item"><a href="index.html" class="nav-link ">HOME</a></li>
+            <li class="nav-item"><a href="shop.html" class="nav-link">SHOP</a></li>
+            <li class="nav-item drop-list5 "><a href="#WOMEN" class="nav-link dropdown-toggle "
+                data-toggle="dropdown">WOMEN</a>
+              <div class="row drop">
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links" href="#">WOMENS</a>
+                  <a class="links" href="#">MENS </a>
+                  <a class="links" href="#">PHONES</a>
+                </div>
+
+
+                <div class="col-4">
+                  <h3>Category</h3>
+                  <a class="links" href="#">COMPUTER</a>
+                  <a class="links" href="#">CONSUMER </a>
+                  <a class="links" href="#">JEWELARY </a>
+                </div>
+
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links" href="#">BAGES</a>
+                  <a class="links" href="#">sports </a>
+                  <a class="links" href="#">VIEW ALL</a>
+                </div>
+                <hr>
+                <img class="mr-4" src="imges/banner05.jpg" alt="banner-item" width="100%" height="44%">
+              </div>
+
+
+            </li>
+            <li class="nav-item drop-list6"><a href="#MEN" class="nav-link dropdown-toggle"
+                data-toggle="dropdown">MEN</a>
+              <div class="row drop2">
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links" href="#">WOMENS</a>
+                  <a class="links" href="#">MENS </a>
+                  <a class="links" href="#">PHONES</a>
+                </div>
+
+
+                <div class="col-4">
+                  <h3>Category</h3>
+                  <a class="links" href="#">COMPUTER</a>
+                  <a class="links" href="#">CONSUMER </a>
+                  <a class="links" href="#">JEWELARY </a>
+                </div>
+
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links" href="#">BAGES</a>
+                  <a class="links" href="#">sports </a>
+                  <a class="links" href="#">VIEW ALL</a>
+                </div>
+                <hr>
+                <img class="mr-4" src="imges/banner-account.jpg" alt="banner-img" width="100%" height="44%">
+              </div>
+
+            </li>
+            <li class="nav-item"><a href="product.html" class="nav-link">SALES</a></li>
+            <li class="nav-item drop-list7"><a href="#PAGES" class="nav-link dropdown-toggle"
+                data-toggle="dropdown">PAGES</a>
+
+              <div class="row drop3">
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links4" href="#">WOMENS</a>
+                  <a class="links4" href="#">MENS </a>
+                  <a class="links4" href="#">PHONES</a>
+                </div>
+
+
+                <div class="col-4">
+                  <h3>Category</h3>
+                  <a class="links4" href="#">COMPUTER</a>
+                  <a class="links4" href="#">CONSUMER </a>
+                  <a class="links4" href="#">JEWELARY </a>
+                </div>
+
+
+                <div class="col-4 ">
+                  <h3>Category</h3>
+                  <a class="links4" href="#">BAGES</a>
+                  <a class="links4" href="#">sports </a>
+                  <a class="links4" href="#">VIEW ALL</a>
+                </div>
+                <hr>
+                <img class="mr-4" src="imges/ad.jpg" alt="img-ad" width="100%" height="44%">
+              </div>
+
+
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6 div-border">
+          <img src="imges/shop-logo.jpg" alt="shop-logo" width="220px"
+            class=" border border-success rounded mt-4 img-shop">
+          <h5 class="mt-2 ml-3">Delight In The Details</h5>
+          <h5 class="mt-4 ml-3">Style Lola</h5>
+          <p class="mt-2 ml-3">Our Products</p>
+          <p class="mt-2 ml-3"> MENS CLOTHES</p>
+          <p class="mt-2 ml-3">PHONES & ECCESSORIES</p>
+          <p class="mt-2 ml-3">WOMENS CLOTHES</p>
+          <i class="fab fa-facebook-square ml-3 mr-2"></i>
+          <i class="fab fa-twitter-square mr-2"></i>
+          <i class="fab fa-google-plus-square mr-2"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>
+        <div class="col-lg-9 col-6 div2-border">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"
+            style="margin-left:-20px; margin-right:-20px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="imges/slider-2.jpg" alt="First slide" height="450px" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imges/slider-35.jpg" alt="Second slide" height="450px" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imges/slider-4.jpg" alt="Third slide" height="450px" width="100%">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-lg-3 col-sm-6">
+          <img src="imges/coll-1.jpg" alt="img-coll" width="250px" class="rounded">
+          <h4 style="position: absolute; top:40%; left: 25%;color: honeydew;">casual wear</h4>
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-2">
+          <img src="imges/coll-2.jpg" alt="img-coll" width="250px" class="rounded">
+          <h4 style="position: absolute; top:40%; left: 30%;color: honeydew;">watches</h4>
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-2">
+          <img src="imges/coll-3.jpg" alt="img-coll" width="250px" class="rounded">
+          <h4 style="position: absolute; top:40%; left: 25%;color: honeydew;">sunglasses</h4>
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-2">
+          <img src="imges/coll-4.jpg" alt="img-coll" width="250px" class="rounded">
+          <h4 style="position: absolute; top:40%; left: 30%;color: honeydew;">shoses</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mt-4 font-weight-bold">
+          <p>All Products:</p>
+          <hr>
+        </div>
+        <div class="col-lg-4 col-sm-6 mt-3 font-weight-bold ">
+          <input type="search" class="form-control" value="ENTER YOUR KEY">
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-3">
+          <span>SORT BY:</span>
+          <select class="btn btn-success">
+            <option value="Color">Newest</option>
+            <option value="Size">Oldest</option>
+            <option value="Brand">Brand</option>
+          </select>
+        </div>
+        <!-- <div class="col-1"></div> -->
+        <div class="col-lg-2 col-sm-6 pull-right mt-3">
+          <ul class="pagination">
+            <li>
+              <p class="page-link" style="color: black !important;" href="#">page:</p>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+          </ul>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p>WOMENS CLOTHES</p>
+          <p> MENS CLOTHES</p>
+          <p>PHONES & ECCESSORIES</p>
+          <p>COMPUTER & OFFICE</p>
+          <p>CONSUMER ELCTRONICS</p>
+          <p>JEWELARY & WATCHES</p>
+          <p> BAGES & SHOES</p>
+          <p>VIEW ALL</p>
+          <p class="font-weight-bold">FILTER BY PRICE</p>
+          <div class="range-filter ml-0">
+            <div class="range-controls">
+              <div class="scale">
+                <div style="margin-left:50px;width:100px;" class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+              <span class="font-size-sm">FROM</span> <input class="min-price" type="text" value="5 000">
+              <span class="font-size-sm">TO</span> <input class="max-price" type="text" value="15 000">
+            </div>
+            <div>
+              <h6 class="p-1 border-bottom mt-4 font-weight-bold">Filter By Color</h6>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-action mb-2 rounded"><a href="#"> <span
+                      class="fa fa-circle pr-1" id="red"></span>Red </a></li>
+                <li class="list-group-item list-group-item-action mb-2 rounded"><a href="#"> <span
+                      class="fa fa-circle pr-1" id="teal"></span>Teal </a></li>
+                <li class="list-group-item list-group-item-action mb-2 rounded"><a href="#"> <span
+                      class="fa fa-circle pr-1" id="blue"></span>Blue </a></li>
+              </ul>
+            </div>
+            <div class="py-3">
+              <h5 class="font-weight-bold">Filter By Size</h5>
+              <form class="brand">
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">XL <input type="checkbox">
+                    <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">2X <input type="checkbox"
+                      checked> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">3X <input type="checkbox"
+                      checked> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">XXL <input type="checkbox">
+                    <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">SL<input type="checkbox">
+                    <span class="check"></span> </label> </div>
+              </form>
+            </div>
+            <div class="py-3">
+              <h5 class="font-weight-bold">Brands</h5>
+              <form class="brand">
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">NIKE <input
+                      type="checkbox"> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">ADDIDAS <input
+                      type="checkbox" checked> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">POMA<input type="checkbox"
+                      checked> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">TIGER <input
+                      type="checkbox"> <span class="check"></span> </label> </div>
+                <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Louis Vuitton <input
+                      type="checkbox"> <span class="check"></span> </label> </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="col-md-12 mt-4 mt-lg-0">
+            <div class="owl-carousel owl-theme">
+              <div class="item"> <img src="imges/pro1.jpg" alt="img-item2">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 text-b font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+              <div class="item"><img src="imges/pro2.jpg" alt="img-item3">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+
+              <div class="item"><img src="imges/pro3.jpg" alt="img-item4">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+              <div class="item"><img src="imges/pro4.jpg" alt="img-item5">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-8" style="position: relative; top:-600px; left: 33%;">
+          <div class="col-md-12 mt-4 mt-lg-0">
+            <div class="owl-carousel owl-theme">
+              <div class="item"> <img src="imges/pro5.jpg" alt="img-item2">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 text-b font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+              <div class="item"><img src="imges/pro6.jpg" alt="img-item3">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+
+              <div class="item"><img src="imges/pro7.jpg" alt="img-item4">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+              <div class="item"><img src="imges/pro8.jpg" alt="img-item5">
+                <div class="discount1"> NEW</div>
+                <div class="discount2"> -20% </div>
+                <span class="ml-2 font-weight-bold">32.50EGP</span> <span
+                  style="text-decoration: line-through; color: green;">40,00EGP</span>
+                <pre style="overflow-x: hidden;"
+                  class="ml-2 font-weight-bold">product name<span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+                <p class="card-text"><i class="fab fa-gratipay fa-2x text-success"></i>
+                  <i class="fas fa-share-square fa-2x text-success"></i>
+                  <input type="button" class="btn btn-success mb-3" value="ADD-TO-CART">
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+  </section>
+  <section style="position: relative;top:-400px;background-color: rgb(247, 233, 235);">
+    <div class="container">
+      <h3 class="mt-5">
+        LAST ORDERS
+      </h3>
+
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mt-2 ">
+          <img class="pic1" src="imges/coll-banner.jpg" alt="">
+          <p class="new-coll text-center"> NEW COLLECTION</p>
+          <input class="btn btn-success inpt-shop " type="button" value="SHOP-NOW">
+        </div>
+        <div class="col-md-9">
+          <div class="owl-carousel owl-theme mt-4">
+            <div class="item"> <img src="imges/w1.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+            </div>
+            <div class="item"><img src="imges/item2.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+
+            <div class="item"><img src="imges/item3.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+            <div class="item"><img src="imges/item4.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+  </section>
+  <section style="position: relative;top:-400px;">
+    <div class="container">
+      <h3 class="mt-5">
+        LAST SEEN
+      </h3>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-3 col-sm-6 mt-4">
+          <img class="pic1" src="imges/item1.jpg" alt="">
+          <p class="new-coll text-center"> NEW COLLECTION</p>
+          <input class="btn btn-success inpt-shop " type="button" value="SHOP-NOW">
+        </div>
+        <div class="col-md-9 mt-4">
+          <div class="owl-carousel owl-theme">
+            <div class="item"> <img src="imges/item2.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+            </div>
+            <div class="item"><img src="imges/item3.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+
+            <div class="item"><img src="imges/item4.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+            <div class="item"><img src="imges/item5.jpg" alt="">
+              <div class="discount1"> NEW</div>
+              <div class="discount2"> -20% </div>
+              <span class="ml-2"><strong>32.50EGP</strong></span> <span
+                style="text-decoration: line-through; color: green;">40,00EGP</span>
+              <pre style="overflow-x: hidden;"
+                class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+  </section>
+  <section style="background-color: rgb(248, 232, 204);position: relative;top:-400px;">
+    <div class="container">
+      <h4 class="mt-5">
+        REVIEWS
+      </h4>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <span>Mostafa</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <span>Ahmed</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <span>Mohamed</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <ul class="pagination text-dark">
+            <li>
+              <p class="page-link" style="color: black !important;" href="#">page:</p>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6">
+          <h4>WRITE YOUR REVIEW</h4>
+          <p>Your Email address will be not published</p>
+          <input type="text" placeholder="YOUR NAME" class="form-control">
+          <input type="email" placeholder="YOUR EMAIL" class="form-control mt-2">
+          <textarea name="" id="" cols="10" rows="10" class="form-control mt-2"
+            style="height: 100px;">YOUR REVIEW</textarea>
+          <span style="font-size: 15px;font-weight: bold; margin-top: 20px;">YOUR RATING</span> &nbsp; &nbsp; <i
+            class="fas fa-star text-white"></i> <i class="fas fa-star text-white"></i> <i
+            class="fas fa-star text-white"></i> <i class="fas fa-star text-white"></i>
+          <br>
+          <input type="submit" class="btn btn-success mt-2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="position: relative;top:-400px;background-color: rgb(230, 247, 252);">
+
+    <div class="container">
+      <div class="row ">
+        <div class="text-center">
+          <div class="grid-system col-12 mt-2">
+            <div class="offer-1">
+              <img style="margin-left:20%;" src="imges/offer-1.jpg" alt="offer-item" width="100%">
+
+            </div>
+            <div class="ads">
+              <h2 class="text-success">ADS</h2>
+              <h3 class="text-light">ADVERTISMENT</h3>
+              <input type="button" value="shop-now" class="btn btn-success">
+            </div>
+            <div class="offer-2">
+              <img src="imges/offer-2.jpg" alt="offer-item" width="50%">
+            </div>
+            <div class="ads-2">
+              <h2 class="text-success ad-2">ADS</h2>
+              <h3 class="text-light ad-2">ADVERTISMENT</h3>
+
+            </div>
+            <div class="offer-3">
+              <img src="imges/offer-3.jpg" alt="offer-item" width="50%">
+            </div>
+            <div class="ads-3">
+              <h2 class="text-success ad-2">ADS</h2>
+              <h3 class="text-light ad-2">ADVERTISMENT</h3>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+
+  <section style="position: relative;top:-400px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h4 class="mt-5">
+            ABOUT COMPANY
+          </h4>
+          <hr>
+          <input type="radio"> Busniess Type
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Fugit totam labore nisi nostrum temporibus iste amet
+            aut impedit quisquam beatae corporis nobis,
+            aspernatur nihil,
+            adipisci voluptas nam molestias necessitatibus hic.</p>
+          <input type="radio"> Total reveiws
+          <br>
+          <input type="radio"> Total employess
+          <br>
+          <h4 class="mt-5">
+            ABOUT COMPANY
+          </h4>
+          <hr>
+          <input type="radio"> Free shipping -0,0EGP
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+            excepturi assumenda quia expedita porro ipsum enim quidem vero,
+            aliquam officia modi voluptatibus magni deserunt repellat
+            aut distinctio illum labore </p>
+          <input type="radio"> Standard -10,0EGP
+          <br>
+          <h4 class="mt-5">
+            Payment Methods
+          </h4>
+          <hr>
+          <input type="radio"> DIRECT BANK TRANSFER
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+            excepturi assumenda quia expedita porro ipsum enim quidem vero,
+            aliquam officia modi voluptatibus magni deserunt repellat
+            aut distinctio illum labore </p>
+          <input type="radio"> cheque BANK
+          <br>
+          <input type="radio"> paypal system
+        </div>
+        <div class="col-6">
+          <h4 class="mt-5">
+            CONTACT US
+          </h4>
+          <hr>
+          <form>
+            <label>FIRST NAME </label>
+            <input type="text" class="form-control" placeholder="Enter your Name*">
+            <label>LAST NAME </label>
+            <input type="text" class="form-control" placeholder="Enter your Last Name*">
+            <label>EMAIL </label>
+            <input type="email" class="form-control" placeholder="Enter your Email*">
+            <label>Country NAME </label>
+            <input type="text" class="form-control" placeholder="Enter your Country Name*">
+            <label>Phone </label>
+            <input type="text" class="form-control" placeholder="Enter your Phone*">
+            <label>Message </label>
+            <textarea name="" class="form-control" style="height: 150px;" id="" cols="30"
+              rows="10">Enter your message</textarea>
+            <input type="submit" class="form-control btn btn-success" value="submit">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-5" style="position: relative;top:-390px;">
+    <h5 class="text-center text-success">
+      CONTACT-US
+    </h5>
+    <h5 class="text-center text-success">
+      WE WOULD LOVE TO HEAR FROM YOU
+    </h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 ">
+          <input type="text" placeholder="INTER YOUR NAME" class="form-control">
+          <input type="text" placeholder="INTER YOUR EMAIL" class="form-control mt-2">
+          <input type="text" placeholder="INTER YOUR SUBJECT" class="form-control mt-2">
+          <textarea rows="5" class="form-control mt-2">INTER YOUR MESSAGE
+                  </textarea>
+          <input type="button" value="SEND YUOR MESSAGE" class="btn btn-success mt-2">
+        </div>
+        <div class="col-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.72974024108!2d31.44337506520266!3d30.032617220854974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2z2YXYr9mK2YbYqSDZhti12LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1616524581860!5m2!1sar!2seg"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+  </section>
+  <section class="bg-5" style="position: relative;top:-400px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum, et aspernatur
+            omnis ad,!</p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-google-plus-square"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>
+        <div class="col-3">
+          <h4>
+            ABOUT-US
+          </h4>
+          <i class="fas fa-map-marker-alt"></i> LOCATION ipsum dolor sit amet consectetur adipisicing elit.
+          Accusantium eum, et aspernatur omnis ad
+          <br>
+          <i class="fas fa-phone-square "></i> <span>01032018555</span>
+          <br>
+          <i class="fas fa-envelope-square"></i> <span>INFO@MAIL.COM</span>
+
+        </div>
+        <div class="col-3">
+          <h4>CUSTOMER SERVER</h4>
+          <p>ABOUT-US</p>
+          <p>SHIPING & RETURN</p>
+          <p>SHIPING GUIDE</p>
+          <p>FAQ</p>
+        </div>
+        <div class="col-3">
+          <h3>STAY CONNECTED</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum, et aspernatur omnis ad,!</p>
+          <input type="text" placeholder="ENTER EMAIL ADDRESS " class="form-control">
+
+          <input type="button" value="SEND" id="" class="btn btn-success form-control">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script>
+    $(document).ready(function () {
+      $(".drop").hide();
+      $(".drop2").hide();
+      $(".drop3").hide();
+    });
+
+    $("#drop4").click(function () {
+      $("#drop-list4").toggle();
+    });
+    $(".drop-list5").on('click', function () {
+      $(".drop").toggle();
+    });
+    $(".drop-list6").on('click', function () {
+      $(".drop2").toggle();
+    });
+    $(".drop-list7").on('click', function () {
+      $(".drop3").toggle();
+    });
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

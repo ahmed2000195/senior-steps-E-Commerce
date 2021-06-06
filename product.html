@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+  <meta name="description"
+    content="An Egyptian software engineer specializing in the field of programming and web development.">
+
+  <!-- / <link rel="stylesheet" href="css/demo.css"> -->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="css/jquery.flipster.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/jpg" href="imges/ba" />
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>PRODUCTS</title>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.flipster.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <style>
+    body {
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .link1 {
+      text-decoration: none;
+      color: rgb(240, 236, 236) !important;
+      padding: 5px;
+    }
+
+    .dropdown-menu {
+      color: #fff;
+      text-decoration: none;
+      background-color: rgba(194, 192, 192, 0.967);
+    }
+
+    .fontawesome1 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account {
+      font-size: 15px;
+      position: absolute;
+      top: -20px;
+      left: -40px;
+    }
+
+    .login {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .fontawesome2 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+
+    .my-account2 {
+      font-size: 15px;
+      text-decoration: none;
+      position: absolute;
+      top: -2px;
+      left: 50px;
+      white-space: nowrap;
+    }
+
+    .join {
+      font-size: 15px;
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      color: hotpink;
+    }
+
+    .links2 li a {
+      color: rgb(231, 246, 247);
+    }
+
+    .drop {
+      position: relative;
+    }
+
+    #drop-list4 {
+      display: none;
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 30%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      min-width: 7px;
+      margin-top: 5px;
+      right: 75%;
+      z-index: 1;
+      color: rgb(224, 240, 226);
+    }
+
+    #drop-list4 a {
+      color: black;
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    #drop-list4 a:hover {
+      color: red;
+    }
+
+    .drop {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 25%;
+      z-index: 1;
+    }
+
+    .drop a {
+      color: rgb(237, 248, 238);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop .links:hover {
+      color: red;
+    }
+
+    .links {
+      display: block;
+    }
+
+    .links4 {
+      display: block;
+    }
+
+    .drop2 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      right: 15%;
+      z-index: 1;
+    }
+
+    .drop2 a {
+      color: rgb(240, 250, 243);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .drop2 a:hover {
+      color: red;
+    }
+
+    .drop3 {
+      position: absolute;
+      top: 30px;
+      background-color: rgba(194, 192, 192, 0.967);
+      background-size: 100px;
+      width: 60%;
+      padding: 20px;
+      border-bottom: 1px solid rgb(44, 30, 30);
+      height: 420px;
+      min-width: 7px;
+      margin-top: 5px;
+      left: 65%;
+      z-index: 1;
+    }
+
+    .drop3 a {
+      color: rgb(26, 255, 19);
+      padding: 20px;
+      padding-bottom: 2px;
+    }
+
+    .links4:hover {
+      color: red;
+    }
+
+    .drop3 li a:hover {
+      color: red;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: white;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+
+    .discount1 {
+      position: absolute;
+      left: 4%;
+      top: 0%;
+      background-color: black;
+      color: rgb(253, 247, 247);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount2 {
+      position: absolute;
+      left: 15%;
+      top: 0%;
+      background-color: rgb(12, 240, 31);
+      color: rgb(17, 10, 1);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount3 {
+      position: relative;
+      left: 5%;
+      top: 0%;
+      /* background-color: black; */
+      color: rgb(19, 18, 18);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount4 {
+      position: relative;
+      left: 10%;
+      top: 0%;
+      /* background-color: rgb(12, 240, 31); */
+      color: rgb(17, 10, 1);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount5 {
+      position: relative;
+      left: 15%;
+      top: 0%;
+      /* background-color: black; */
+      color: rgb(15, 15, 14);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount6 {
+      position: relative;
+      left: 20%;
+      top: 0%;
+      /* background-color: rgb(12, 240, 31); */
+      color: rgb(17, 10, 1);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .shoping-div {
+      background-color: rgba(237, 247, 193, 0.945);
+      box-shadow: 2px 5px 10px rgb(245, 10, 10);
+    }
+
+    .btn-2 {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 20;
+    }
+
+    .pic2:hover .btn-2 {
+      opacity: 1;
+      visibility: visible;
+      color: rgb(12, 255, 4);
+      border: 1px solid green;
+
+    }
+
+    .discount-1 {
+      position: absolute;
+      left: 15px;
+      top: 0%;
+      background-color: black;
+      color: blanchedalmond;
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .discount-2 {
+      position: absolute;
+      left: 15px;
+      top: 10%;
+      background-color: rgb(12, 240, 31);
+      color: rgb(17, 10, 1);
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width:1200px) {
+
+      .my-account,
+      .my-account2 {
+        font-size: 10px;
+      }
+
+      .heart-margin {
+        margin-left: 170px !important;
+      }
+    }
+
+    @media screen and (max-width:994px) {
+      .my-account {
+        font-size: 10px;
+      }
+
+      .login {
+        right: 40%;
+        font-size: 10px;
+      }
+
+      .join {
+        font-size: 10px;
+      }
+
+      .cart-2 *:not(i) {
+        font-size: 10px;
+      }
+    }
+
+    @media screen and (max-width:920px) {
+      body {
+        overflow-x: hidden;
+      }
+
+      .ads {
+        top: 25%;
+        left: 15%;
+      }
+
+      .ad-2,
+      .ad-3 {
+        font-size: 10px;
+      }
+
+      #drop-list2 {
+        width: 40%;
+      }
+
+      #drop-list4 {
+        width: 250px;
+        left: 0;
+      }
+
+      h3 {
+        font-size: 10px;
+      }
+
+      .links,
+      .links4 {
+        font-size: 10px;
+        margin-left: -40px;
+      }
+
+      h4 {
+        font-size: 15px;
+      }
+
+      .table {
+        width: 100%;
+      }
+
+      tr td img {
+        width: 30px;
+      }
+
+      .heart-margin {
+        margin-left: 170px !important;
+      }
+    }
+
+    @media screen and (max-width:575px) {
+      .accountmargin1 {
+        margin-left: 20%;
+        margin-top: 20px;
+      }
+
+      .accountmargin2 {
+        margin-top: 20px;
+        margin-left: 10%;
+      }
+
+      .best-offers {
+        margin-left: 8%;
+      }
+    }
+
+    @media screen and (max-width:550px) {
+      .cart-2 {
+        margin-left: 20%;
+      }
+
+      .login,
+      .join {
+        font-size: 10px;
+        white-space: nowrap;
+      }
+
+      p,
+      h4 {
+        word-wrap: break-word;
+      }
+    }
+
+    @media screen and (max-width:380px) {
+      .accountmargin1 {
+        margin-left: 0px;
+      }
+
+      .accountmargin {
+        position: relative;
+        bottom: 20px;
+        margin-left: 20px;
+      }
+
+      .my-account2,
+      .join {
+        margin-top: 5px;
+      }
+
+      .login,
+      .my-account {
+        margin-top: 2px;
+
+      }
+
+      p,
+      h4 {
+        word-wrap: break-word;
+      }
+
+      .heart-margin {
+        margin-left: 170px !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class=" col-6 bg-success">
+        <p class="text-white"> <i class="fas fa-bullhorn"></i> WHATEVER YOU HAVE GOT IN MIND WE HAVE GOT INSIDE </p>
+      </div>
+      <div class="col-6 bg-success ">
+        <span class="text-white"> <i class="fab fa-app-store-ios"></i> APP STORE</span>
+        <pre class="d-inline text-white"> <i class="fab fa-google-play text-white" ></i> GOOGLE PLAY </pre>
+        <ul>
+          <li id="drop" class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle link1" data-toggle="dropdown" id="dropdown"> ENG</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown">
+              <a class="dropdown-item" href="#"> English</a>
+              <a class="dropdown-item" href="#"> ARABIC</a>
+              <a class="dropdown-item" href="#"> SPANSH</a>
+              <a class="dropdown-item" href="#"> FRENCH</a>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li id="drop2" class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle link1 nav-link" data-toggle="dropdown" id="dropdown">USD </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown">
+              <a class="dropdown-item" href="#"> USD</a>
+              <a class="dropdown-item" href="#"> EUR</a>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 col-md-2 col-lg-1 mt-2">
+          <a href="index.html"> <img src="imges/time-logo.jpeg" alt="time-logo" width="100%"></a>
+        </div>
+        <div class="col-4 col-lg-2">
+          <select style="border: 1px solid rgb(123, 180, 255); width: 60%; position: absolute; right: 40%;"
+            class="btn form-control mt-2">
+            <option value="products"> PRODUCTS </option>
+            <option value="all"> SUPPLIER</option>
+            <option value="all"> ALL</option>
+          </select>
+        </div>
+        <div class="col-5 col-lg-3">
+          <form action="">
+            <input style="border: 1px solid rgb(123, 180, 255); position: absolute; right: 20%;" type="search"
+              placeholder="ENTER-YOUR-KEY" class="btn form-control mt-2"><i
+              style="position: absolute;top: 40%;left: 70%;" class="fa fa-fw fa-search"></i>
+          </form>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2 col-4 offset-sm-4 offset-lg-0 accountmargin1">
+          <i class="fas fa-address-card  text-success fontawesome1"></i>
+          <ul class="accountmargin">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle my-account" data-toggle="dropdown" id="dropdown">
+                MY-ACCOUNT</a>
+
+              <div class="dropdown-menu " aria-labelledby="dropdown">
+                <a class="dropdown-item" href="myAccount2.html"> <i class="fas fa-user-alt"></i>MY
+                  ACCOUNT</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> MY WISHES</a>
+                <a class="dropdown-item" href="order.html"> <i class="fas fa-not-equal"></i> COMPARE</a>
+
+                <a class="dropdown-item" href="check-out.html"> <i class="fas fa-check"></i> CHECKOUT</a>
+
+                <a class="dropdown-item" href="login.html"> <i class="fas fa-lock"></i> LOGIN</a>
+                <a class="dropdown-item" href="registration.html"> <i class="fas fa-user-circle"></i>
+                  CR-ACCOUNT</a>
+              </div>
+            </li>
+          </ul>
+          <p class="login"> LOGIN</p>
+        </div>
+        <div class=" col-lg-2 col-4 accountmargin2">
+          <i class="fas fa-shopping-cart  text-success fontawesome2"></i>
+          <a class="nav-link my-account2" href="#" class="dropdown-toggle " data-toggle="dropdown"> MY-cart</a>
+          <p class="join"> JOIN
+          <p>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-dark">
+      <div class="offset-lg-1 col-8 offset-sm-0">
+        <ul class="nav links2">
+          <li id="drop4" class="nav-item bg-success "><a href="#GATEGORIES" class="nav-link">GATEGORIES &nbsp;<i
+                class="fas fa-bars"> </i></a>
+            <ul id="drop-list4">
+              <li class="nav-item"> <a class="nav-link" href="category.html"> WOMENS CLOTHES <i
+                    class="fas fa-newspaper btn btn-outline-success"></i></a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> MENS CLOTHES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> PHONES & ECCESSORIES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> COMPUTER & OFFICE</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> CONSUMER ELCTRONICS</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> JEWELARY & WATCHES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> BAGES & SHOES</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#"> VIEW ALL</a> </li>
+            </ul>
+
+          </li>
+          <li class="nav-item"><a href="#HOME" class="nav-link ">HOME</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link">SHOP</a></li>
+          <li class="nav-item drop-list5 "><a href="#WOMEN" class="nav-link dropdown-toggle "
+              data-toggle="dropdown">WOMEN</a>
+            <div class="row drop">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">WOMENS</a>
+                <a class="links" href="#">MENS </a>
+                <a class="links" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links" href="#">COMPUTER</a>
+                <a class="links" href="#">CONSUMER </a>
+                <a class="links" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">BAGES</a>
+                <a class="links" href="#">sports </a>
+                <a class="links" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/banner05.jpg" alt="banner-item" width="100%" height="44%">
+            </div>
+
+
+          </li>
+          <li class="nav-item drop-list6"><a href="#MEN" class="nav-link dropdown-toggle" data-toggle="dropdown">MEN</a>
+            <div class="row drop2">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">WOMENS</a>
+                <a class="links" href="#">MENS </a>
+                <a class="links" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links" href="#">COMPUTER</a>
+                <a class="links" href="#">CONSUMER </a>
+                <a class="links" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links" href="#">BAGES</a>
+                <a class="links" href="#">sports </a>
+                <a class="links" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/banner-account.jpg" alt="banner-img" width="100%" height="44%">
+            </div>
+
+          </li>
+          <li class="nav-item"><a href="#SALES" class="nav-link">SALES</a></li>
+          <li class="nav-item drop-list7"><a href="#PAGES" class="nav-link dropdown-toggle"
+              data-toggle="dropdown">PAGES</a>
+
+            <div class="row drop3">
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links4" href="#">WOMENS</a>
+                <a class="links4" href="#">MENS </a>
+                <a class="links4" href="#">PHONES</a>
+              </div>
+
+
+              <div class="col-4">
+                <h3>Category</h3>
+                <a class="links4" href="#">COMPUTER</a>
+                <a class="links4" href="#">CONSUMER </a>
+                <a class="links4" href="#">JEWELARY </a>
+              </div>
+
+
+              <div class="col-4 ">
+                <h3>Category</h3>
+                <a class="links4" href="#">BAGES</a>
+                <a class="links4" href="#">sports </a>
+                <a class="links4" href="#">VIEW ALL</a>
+              </div>
+              <hr>
+              <img class="mr-4" src="imges/ad.jpg" alt="img-ad" width="100%" height="44%">
+            </div>
+
+
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+  <section>
+    <div class="container-fluid bg-light" style="box-shadow: 1px 2px 10px red;">
+      <div class="row">
+        <div class="offset-1 col-5 mt-2 mb-2">
+          <span style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            Home
+          </span>
+          <span style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            / Products
+          </span>
+          <span style="font-size: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            / Category
+          </span>
+          <span class="text-success" style="font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">/ Product Name</span>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+  <section>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <!-- Container for the image gallery -->
+          <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="imges/01.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="imges/02.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="imges/03.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="imges/04.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row ml-2">
+              <div class="column">
+                <img class="demo cursor" src="imges/01.jpg" style="width:100%" onclick="currentSlide(1)"
+                  alt="The Woods">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="imges/02.jpg" style="width:100%" onclick="currentSlide(2)"
+                  alt="Cinque Terre">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="imges/03.jpg" style="width:100%" onclick="currentSlide(3)"
+                  alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="imges/04.jpg" style="width:100%" onclick="currentSlide(4)"
+                  alt="Northern Lights">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <div class="discount1"> NEW</div> <i style="margin-left:350px;"
+            class="btn btn-success fas fa-heart heart-margin"></i>
+          <div class="discount2 d-inline"> -20% </div> <i class="btn btn-success fas fa-share-alt"></i>
+          <h4 class="font-weight-bold">Product Name</h4>
+          <span class=" text-b font-weight-bold">180.50EGP</span>
+          <span style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <br>
+          <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+          <h6 class="font-weight-bold">Availablity: in stock</h6>
+          <h6 class="font-weight-bold">Brand: Nike</h6>
+          <h6 class="font-weight-bold">Shop: Time Mail</h6>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, officia.
+            Quasi accusamus similique quam, MY E-COMMERCE WEBSITE laboriosam eveniet! Sapiente nesciunt
+            tempora consectetur dignissimos beatae quas reprehenderit sequi?
+          </p>
+          <div>
+            <span class="font-weight-bold">Size</span>
+            <div class="discount3 btn btn-outline-success d-inline"> X5</div>
+            <div class="discount4 btn btn-outline-success d-inline"> XL </div>
+            <div class="discount5 btn btn-outline-success d-inline"> SM </div>
+            <div class="discount6 btn btn-outline-success d-inline"> LG </div>
+          </div>
+          <hr>
+
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <td><img src="imges/01.jpg" alt="" width="150px"></td>
+                <td>90,50 EGP</td>
+                <td><i class="btn btn-outline-dark fas fa-minus-square"></i> <i
+                    class="btn btn-outline-dark fas fa-plus"></i></i></td>
+              </tr>
+              <tr>
+                <td><img src="imges/02.jpg" alt="" width="150px"></td>
+                <td>90,50 EGP</td>
+                <td><i class="btn btn-outline-dark fas fa-minus-square"></i> <i
+                    class="btn btn-outline-dark fas fa-plus"></i></i></td>
+              </tr>
+              <tr>
+                <td><img src="imges/03.jpg" alt="" width="150px"></td>
+                <td>90,50 EGP</td>
+                <td><i class="btn btn-outline-dark fas fa-minus-square"></i> <i
+                    class="btn btn-outline-dark fas fa-plus"></i></i></td>
+              </tr>
+              <tr>
+                <td><img src="imges/04.jpg" alt="" width="150px"></td>
+                <td>90,50 EGP</td>
+                <td><i class="btn btn-outline-dark fas fa-minus-square"></i> <i
+                    class="btn btn-outline-dark fas fa-plus"></i></i></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+          <div class="shoping-div">
+            <h4 class="text-success text-center">Cart Total</h4>
+            <p class="text-success text-center"> Subtotal : <span class="text-dark"> 150EGP</span> </p>
+            <p class="text-success text-center"> Shipping : <span class="text-dark"> 50EGP</span></p>
+            <p class="text-success text-center"> Totals : <span class="text-dark"> 200EGP</span></p>
+            <input type="button" class="btn btn-success form-control" value="Checkout">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <div class="container">
+      <h4 class="mt-5">
+        REVIEWS
+      </h4>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <span>Mostafa</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <span>Ahmed</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <span>Mohamed</span> &nbsp; &nbsp;<span>20 jan 2021 /80pm</span> &nbsp; &nbsp;<i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+            class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+          <p> ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dignissimos,
+            ex eos esse magnam laudantium deleniti cumque, at possimus,
+            itaque nisi? Placeat ad repellat atque deserunt,
+            vitae vero nisi expedita.</p>
+          <br>
+          <ul class="pagination text-dark">
+            <li>
+              <p class="page-link" style="color: black !important;" href="#">page:</p>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6">
+          <h4>WRITE YOUR REVIEW</h4>
+          <p>Your Email address will be not published</p>
+          <input type="text" placeholder="YOUR NAME" class="form-control">
+          <input type="email" placeholder="YOUR EMAIL" class="form-control mt-2">
+          <textarea name="" id="" cols="10" rows="10" class="form-control mt-2"
+            style="height: 100px;">YOUR REVIEW</textarea>
+          <span style="font-size: 15px;font-weight: bold; margin-top: 20px;">YOUR RATING</span> &nbsp; &nbsp; <i
+            class="fas fa-star text-white"></i> <i class="fas fa-star text-white"></i> <i
+            class="fas fa-star text-white"></i> <i class="fas fa-star text-white"></i>
+          <br>
+          <input type="submit" class="btn btn-success mt-2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row ">
+        <div class="offset-1">
+          <h3 class=" mt-5">
+            YOUR SAVED ITEM
+          </h3>
+
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="offset-lg-1 col-lg-2 col-sm-4 pic2 offset-sm-2 firstphoto">
+
+          <img src="imges/related-1.jpg" alt="" width="100%">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-2.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-3.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-4.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-5.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+
+
+      </div>
+    </div>
+    <br>
+
+
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="offset-lg-1 col-lg-2 col-sm-4 pic2 offset-sm-2 firstphoto">
+
+          <img src="imges/related-1.jpg" alt="" width="100%">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-2.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-3.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-4.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+        <div class=" col-lg-2 col-sm-4 pic2">
+          <input type="button" value="click-here" class="btn btn-light btn-2">
+          <img class="pic2" src="imges/related-5.jpg" alt="" width="100%">
+          <div class="discount-1"> NEW</div>
+          <div class="discount-2"> -20% </div>
+          <span class="ml-2"><strong>32.50EGP</strong></span> <span
+            style="text-decoration: line-through; color: green;">40,00EGP</span>
+          <pre style="overflow-x: hidden;"
+            class="ml-2"><strong>product name</strong><span><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> </span></pre>
+
+        </div>
+
+
+      </div>
+    </div>
+    <br>
+
+
+  </section>
+  <section class="bg-5">
+    <h5 class="text-center text-success">
+      CONTACT-US
+    </h5>
+    <h5 class="text-center text-success">
+      WE WOULD LOVE TO HEAR FROM YOU
+    </h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <input type="text" placeholder="INTER YOUR NAME" class="form-control">
+          <input type="text" placeholder="INTER YOUR EMAIL" class="form-control mt-2">
+          <input type="text" placeholder="INTER YOUR SUBJECT" class="form-control mt-2">
+          <textarea rows="5" class="form-control mt-2">INTER YOUR MESSAGE
+              </textarea>
+          <input type="button" value="SEND YUOR MESSAGE" class="btn btn-success mt-2">
+        </div>
+        <div class="col-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.72974024108!2d31.44337506520266!3d30.032617220854974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2z2YXYr9mK2YbYqSDZhti12LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1616524581860!5m2!1sar!2seg"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+  </section>
+  <section class="bg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit Accusantium eum et aspernatur omnis
+            ad,!</p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-google-plus-square"></i>
+          <i class="fab fa-instagram-square"></i>
+        </div>
+        <div class="col-3">
+          <h4>
+            ABOUT-US
+          </h4>
+          <i class="fas fa-map-marker-alt"></i> LOCATION ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+          eum, et aspernatur omnis ad
+          <br>
+          <i class="fas fa-phone-square "></i> <span>01032018555</span>
+          <br>
+          <i class="fas fa-envelope-square"></i> <span>INFO@MAIL.COM</span>
+
+        </div>
+        <div class="col-3">
+          <h4>CUSTOMER SERVER</h4>
+          <p>ABOUT-US</p>
+          <p>SHIPING & RETURN</p>
+          <p>SHIPING GUIDE</p>
+          <p>FAQ</p>
+        </div>
+        <div class="col-3">
+          <h4>STAY CONNECTED</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusantium eum et aspernatur omnis ad,!</p>
+          <input type="text" placeholder="ENTER EMAIL ADDRESS " class="form-control">
+
+          <input type="button" value="SEND YOUR EMAIL" id="" class="btn  form-control btn-success mt-2">
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+  </section>
+  <script>
+    $(document).ready(function () {
+      $(".drop").hide();
+      $(".drop2").hide();
+      $(".drop3").hide();
+    });
+
+    $("#drop4").click(function () {
+      $("#drop-list4").toggle();
+    });
+    $(".drop-list5").on('click', function () {
+      $(".drop").toggle();
+    });
+    $(".drop-list6").on('click', function () {
+      $(".drop2").toggle();
+    });
+    $(".drop-list7").on('click', function () {
+      $(".drop3").toggle();
+    });
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+</body>
+
+</html>

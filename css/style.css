@@ -1,0 +1,479 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(240, 236, 236) !important;
+    padding: 5px;
+}
+
+.dropdown-menu {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(194, 192, 192, 0.967);
+}
+.fontawesome1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.my-account {
+    font-size: 15px;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+}
+.login {
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    color: hotpink;
+}
+.fontawesome2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.my-account2 {
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    top: -2px;
+    left: 50px;
+    white-space: nowrap;
+}
+
+.join {
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    color: hotpink;
+}
+.links2 li a {
+    color: rgb(231, 246, 247);
+}
+
+.drop {
+    position: relative;
+}
+
+#drop-list4 {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: rgba(194, 192, 192, 0.967);
+    background-size: 100px;
+    width: 30%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(44, 30, 30);
+    min-width: 7px;
+    margin-top: 5px;
+    right: 75%;
+    z-index: 1;
+    color: rgb(224, 240, 226);
+}
+
+#drop-list4 a {
+    color: black;
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+#drop-list4 a:hover {
+    color: red;
+}
+
+.drop {
+    position: absolute;
+    top: 30px;
+    background-color: rgba(194, 192, 192, 0.967);
+    background-size: 100px;
+    width: 60%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(44, 30, 30);
+    height: 420px;
+    min-width: 7px;
+    margin-top: 5px;
+    right: 25%;
+    z-index: 1;
+}
+
+.drop a {
+    color: rgb(237, 248, 238);
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.drop .links:hover {
+    color: red;
+}
+
+.links {
+    display: block;
+}
+
+.links4 {
+    display: block;
+}
+
+.drop2 {
+    position: absolute;
+    top: 30px;
+    background-color: rgba(194, 192, 192, 0.967);
+    background-size: 100px;
+    width: 60%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(44, 30, 30);
+    height: 420px;
+    min-width: 7px;
+    margin-top: 5px;
+    right: 15%;
+    z-index: 1;
+}
+
+.drop2 a {
+    color: rgb(240, 250, 243);
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.drop2 a:hover {
+    color: red;
+}
+
+.drop3 {
+    position: absolute;
+    top: 30px;
+    background-color: rgba(194, 192, 192, 0.967);
+    background-size: 100px;
+    width: 60%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(44, 30, 30);
+    height: 420px;
+    min-width: 7px;
+    margin-top: 5px;
+    left: 65%;
+    z-index: 1;
+}
+
+.drop3 a {
+    color: rgb(26, 255, 19);
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.links4:hover {
+    color: red;
+}
+
+.drop3 li a:hover {
+    color: red;
+}
+
+#sec-pro {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic1 {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px red;
+}
+
+.pic1 img {
+    width: 100%;
+}
+
+.pic2:hover {
+    opacity: 0.5;
+}
+.new-coll {
+    font-size: 30px;
+    color: rgb(254, 254, 255);
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    text-shadow: 2px 1px 10px rgb(35, 56, 250);
+}
+.inpt-shop {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+}
+.discount1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: black;
+    color: blanchedalmond;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.discount2 {
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    background-color: rgb(12, 240, 31);
+    color: rgb(17, 10, 1);
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.products {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px 10px rgb(87, 6, 238);
+    margin-top: 10px;
+}
+
+.new-arrival {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px 10px red;
+}
+
+.lorem {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px 10px rgb(5, 228, 61);
+}
+.card-body,
+.card-text {
+    opacity: 0;
+    display: none;
+    z-index: 20;
+}
+
+.card:hover .card-body,
+.card-text {
+    opacity: 1;
+    display: block;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+.span-left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.span-right {
+    font-size: 15px;
+    font-weight: bold;
+}
+.background-3 {
+    background-image: url(../imges/bg_3.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#shiva {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+}
+
+.count {
+    line-height: 100px;
+    color: rgb(218, 14, 14);
+    text-shadow: 1px 2px 10px blue;
+    font-size: 25px;
+}
+.grid-system {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "offer-1 offer-1 offer-1 offer-2 offer-2  offer-2" "offer-1 offer-1 offer-1 offer-2 offer-2  offer-2" "offer-1 offer-1 offer-1 offer-3 offer-3 offer-3" "offer-1 offer-1 offer-1 offer-3 offer-3 offer-3";
+}
+
+.offer-1 {
+    grid-area: offer-1;
+}
+
+.offer-2 {
+    grid-area: offer-2;
+}
+
+.offer-3 {
+    grid-area: offer-3;
+}
+
+.ads {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+
+.ads-2 {
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+
+.ads-3 {
+    position: absolute;
+    top: 65%;
+    left: 67%;
+}
+.add-card2,
+.add-card1 {
+    transition: 0.4s;
+}
+
+.add-card2,
+.add-card1:hover {
+    transform: translateY(-5px);
+}
+
+.add-card2,
+.add-card1 img:hover {
+    opacity: 0.5;
+}
+.qoute {
+    position: absolute;
+    right: 40%;
+}
+
+.bg-5 {
+    background: rgb(216, 211, 211);
+}
+.empity {
+    border: 0;
+}
+
+
+@media screen and (max-width:1200px) {
+    .my-account,
+    .my-account2 {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:994px) {
+    .my-account {
+        font-size: 10px;
+    }
+    .login {
+        right: 40%;
+        font-size: 10px;
+    }
+    .join {
+        font-size: 10px;
+    }
+    .cart-2 *:not(i) {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .add-card1 img{
+        width: 200px;
+
+    }
+}
+@media screen and (max-width:920px) {
+    body {
+        overflow-x: hidden;
+    }
+    .ads {
+        top: 25%;
+        left: 15%;
+    }
+    .ad-2,
+    .ad-3 {
+        font-size: 10px;
+    }
+    #drop-list2 {
+        width: 40%;
+    }
+    #drop-list4 {
+        width: 250px;
+        left: 0;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .links,
+    .links4 {
+        font-size: 10px;
+        margin-left: -40px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .accountmargin1 {
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    .accountmargin2 {
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .best-offers {
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width:550px) {
+    .cart-2 {
+        margin-left: 20%;
+    }
+    .login,
+    .join {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    p , h4{
+        word-wrap: break-word;
+    }
+}
+@media screen and (max-width:380px) {
+    .accountmargin1 {
+        margin-left: 0px;
+    }
+    .accountmargin{
+        position: relative;
+        bottom: 20px;
+        margin-left: 20px;
+    }
+    .my-account2,.join{
+        margin-top: 5px;
+    }    
+.login , .my-account{
+    margin-top: 2px;
+
+}
+    p , h4{
+        word-wrap: break-word;
+}
+}
+@media screen and (max-width:300px) {
+    .card{
+        margin-left: -25px;
+        width: 100px;
+    }
+    
+}
