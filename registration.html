@@ -56,10 +56,18 @@
     }
 
     .dropdown-menu {
-      color: #fff;
+      color: rgb(15, 15, 15);
       text-decoration: none;
-      background-color: rgba(194, 192, 192, 0.967);
+      background: #fff;
+      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      transition: 0.3s;
+      transition: 0.3s;
+      font-size: 15px;
+      padding: 5 4px;
+      letter-spacing: 0.4px;
+      font-family: "Poppins", sans-serif;
     }
+
 
     .fontawesome1 {
       font-size: 30px;
@@ -90,16 +98,17 @@
       font-size: 15px;
       text-decoration: none;
       position: absolute;
-      top: -2px;
+      top: -40px;
       left: 50px;
       white-space: nowrap;
+      list-style: none;
     }
 
     .join {
       font-size: 15px;
       position: absolute;
-      top: 20px;
-      left: 70px;
+      top: 22px;
+      left: 90px;
       color: hotpink;
     }
 
@@ -114,17 +123,23 @@
     #drop-list4 {
       display: none;
       position: absolute;
-      top: 30px;
-      background-color: rgba(194, 192, 192, 0.967);
+      top: 50px;
       background-size: 100px;
       width: 30%;
-      padding: 20px;
       border-bottom: 1px solid rgb(44, 30, 30);
       min-width: 7px;
       margin-top: 5px;
       right: 75%;
       z-index: 1;
-      color: rgb(224, 240, 226);
+      color: #fff;
+      transition: 0.3s;
+      font-size: 15px;
+      letter-spacing: 0.4px;
+      font-family: "Poppins", sans-serif;
+      background: #fff;
+      padding: 0.1rem 0.2rem;
+      border-radius: 0.2rem;
+      margin-bottom: 5px;
     }
 
     #drop-list4 a {
@@ -326,7 +341,8 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class=" col-6 bg-success">
-        <p class="text-white"> <i class="fas fa-bullhorn"></i> WHATEVER YOU HAVE GOT IN MIND WE HAVE GOT INSIDE </p>
+        <p class="text-white mt-2"> <i class="fas fa-bullhorn"></i> WHATEVER YOU HAVE GOT IN MIND WE HAVE GOT INSIDE
+        </p>
       </div>
       <div class="col-6 bg-success ">
         <span class="text-white"> <i class="fab fa-app-store-ios"></i> APP STORE</span>
@@ -353,181 +369,293 @@
         </ul>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-3 col-md-2 col-lg-1 mt-2">
-          <a href="index.html"> <img src="imges/time-logo.jpeg" alt="time-logo" width="100%"></a>
-        </div>
-        <div class="col-4 col-lg-2">
-          <select style="border: 1px solid rgb(123, 180, 255); width: 60%; position: absolute; right: 40%;"
-            class="btn form-control mt-2">
-            <option value="products"> PRODUCTS </option>
-            <option value="all"> SUPPLIER</option>
-            <option value="all"> ALL</option>
-          </select>
-        </div>
-        <div class="col-5 col-lg-3">
-          <form action="">
-            <input style="border: 1px solid rgb(123, 180, 255); position: absolute; right: 20%;" type="search"
-              placeholder="ENTER-YOUR-KEY" class="btn form-control mt-2"><i
-              style="position: absolute;top: 40%;left: 70%;" class="fa fa-fw fa-search"></i>
-          </form>
-        </div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-2 col-4 offset-sm-4 offset-lg-0 accountmargin1">
-          <i class="fas fa-address-card  text-success fontawesome1"></i>
-          <ul class="accountmargin">
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle my-account" data-toggle="dropdown" id="dropdown">
-                MY-ACCOUNT</a>
-
-              <div class="dropdown-menu " aria-labelledby="dropdown">
-                <a class="dropdown-item" href="myAccount2.html"> <i class="fas fa-user-alt"></i>MY
-                  ACCOUNT</a>
-                <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> MY WISHES</a>
-                <a class="dropdown-item" href="order.html"> <i class="fas fa-not-equal"></i> COMPARE</a>
-
-                <a class="dropdown-item" href="check-out.html"> <i class="fas fa-check"></i> CHECKOUT</a>
-
-                <a class="dropdown-item" href="login.html"> <i class="fas fa-lock"></i> LOGIN</a>
-                <a class="dropdown-item" href="registration.html"> <i class="fas fa-user-circle"></i>
-                  CR-ACCOUNT</a>
-              </div>
-            </li>
-          </ul>
-          <p class="login"> LOGIN</p>
-        </div>
-        <div class=" col-lg-2 col-4 accountmargin2">
-          <i class="fas fa-shopping-cart  text-success fontawesome2"></i>
-          <a class="nav-link my-account2" href="#" class="dropdown-toggle " data-toggle="dropdown"> MY-cart</a>
-          <p class="join"> JOIN
-          <p>
-        </div>
+  </div>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-3 col-md-2 col-lg-1 mt-2">
+        <a href="index.html"> <img src="imges/time-logo.jpeg" alt="time-logo" width="100%"></a>
       </div>
-    </div>
-    <div class="row bg-dark">
-      <div class="offset-lg-1 col-8 offset-sm-0">
-        <ul class="nav links2">
-          <li id="drop4" class="nav-item bg-success "><a href="#GATEGORIES" class="nav-link">GATEGORIES &nbsp;<i
-                class="fas fa-bars"> </i></a>
-            <ul id="drop-list4">
-              <li class="nav-item"> <a class="nav-link" href="category.html"> WOMENS CLOTHES <i
-                    class="fas fa-newspaper btn btn-outline-success"></i></a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> MENS CLOTHES</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> PHONES & ECCESSORIES</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> COMPUTER & OFFICE</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> CONSUMER ELCTRONICS</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> JEWELARY & WATCHES</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> BAGES & SHOES</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"> VIEW ALL</a> </li>
-            </ul>
+      <div class="col-4 col-lg-2">
+        <select style="border: 1px solid rgb(123, 180, 255); width: 60%; position: absolute; right: 40%;"
+          class="btn form-control mt-2">
+          <option value="products"> PRODUCTS </option>
+          <option value="all"> SUPPLIER</option>
+          <option value="all"> ALL</option>
+        </select>
+      </div>
+      <div class="col-5 col-lg-3">
+        <form action="">
+          <input style="border: 1px solid rgb(123, 180, 255); position: absolute; right: 20%;" type="search"
+            placeholder="ENTER-YOUR-KEY" class="btn form-control mt-2"><i style="position: absolute;top: 40%;left: 70%;"
+            class="fa fa-fw fa-search"></i>
+        </form>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-2 col-4 offset-sm-4 offset-lg-0 accountmargin1">
+        <i class="fas fa-address-card  text-success fontawesome1"></i>
+        <ul class="accountmargin">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle my-account" data-toggle="dropdown" id="dropdown">
+              MY-ACCOUNT</a>
 
-          </li>
-          <li class="nav-item"><a href="index.html" class="nav-link ">HOME</a></li>
-          <li class="nav-item"><a href="shop.html" class="nav-link">SHOP</a></li>
-          <li class="nav-item drop-list5 "><a href="#WOMEN" class="nav-link dropdown-toggle "
-              data-toggle="dropdown">WOMEN</a>
-            <div class="row drop">
+            <div class="dropdown-menu " aria-labelledby="dropdown">
+              <a class="dropdown-item" href="myAccount2.html"> <i class="fas fa-user-alt text-success"></i> MY
+                ACCOUNT</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-heart text-success"></i> MY WISHES</a>
+              <a class="dropdown-item" href="order.html"> <i class="fas fa-not-equal text-success"></i> COMPARE</a>
 
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links" href="#">WOMENS</a>
-                <a class="links" href="#">MENS </a>
-                <a class="links" href="#">PHONES</a>
-              </div>
+              <a class="dropdown-item" href="check-out.html"> <i class="fas fa-check text-success"></i> CHECKOUT</a>
 
-
-              <div class="col-4">
-                <h3>Category</h3>
-                <a class="links" href="#">COMPUTER</a>
-                <a class="links" href="#">CONSUMER </a>
-                <a class="links" href="#">JEWELARY </a>
-              </div>
-
-
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links" href="#">BAGES</a>
-                <a class="links" href="#">sports </a>
-                <a class="links" href="#">VIEW ALL</a>
-              </div>
-              <hr>
-              <img class="mr-4" src="imges/banner05.jpg" alt="banner-item" width="100%" height="44%">
+              <a class="dropdown-item" href="login.html"> <i class="fas fa-lock text-success"></i> LOGIN</a>
+              <a class="dropdown-item" href="registration.html"> <i class="fas fa-user-circle text-success"></i>
+                CR-ACCOUNT</a>
             </div>
-
-
-          </li>
-          <li class="nav-item drop-list6"><a href="#MEN" class="nav-link dropdown-toggle" data-toggle="dropdown">MEN</a>
-            <div class="row drop2">
-
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links" href="#">WOMENS</a>
-                <a class="links" href="#">MENS </a>
-                <a class="links" href="#">PHONES</a>
-              </div>
-
-
-              <div class="col-4">
-                <h3>Category</h3>
-                <a class="links" href="#">COMPUTER</a>
-                <a class="links" href="#">CONSUMER </a>
-                <a class="links" href="#">JEWELARY </a>
-              </div>
-
-
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links" href="#">BAGES</a>
-                <a class="links" href="#">sports </a>
-                <a class="links" href="#">VIEW ALL</a>
-              </div>
-              <hr>
-              <img class="mr-4" src="imges/banner-account.jpg" alt="banner-img" width="100%" height="44%">
-            </div>
-
-          </li>
-          <li class="nav-item"><a href="product.html" class="nav-link">SALES</a></li>
-          <li class="nav-item drop-list7"><a href="#PAGES" class="nav-link dropdown-toggle"
-              data-toggle="dropdown">PAGES</a>
-
-            <div class="row drop3">
-
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links4" href="#">WOMENS</a>
-                <a class="links4" href="#">MENS </a>
-                <a class="links4" href="#">PHONES</a>
-              </div>
-
-
-              <div class="col-4">
-                <h3>Category</h3>
-                <a class="links4" href="#">COMPUTER</a>
-                <a class="links4" href="#">CONSUMER </a>
-                <a class="links4" href="#">JEWELARY </a>
-              </div>
-
-
-              <div class="col-4 ">
-                <h3>Category</h3>
-                <a class="links4" href="#">BAGES</a>
-                <a class="links4" href="#">sports </a>
-                <a class="links4" href="#">VIEW ALL</a>
-              </div>
-              <hr>
-              <img class="mr-4" src="imges/ad.jpg" alt="img-ad" width="100%" height="44%">
-            </div>
-
-
           </li>
         </ul>
+        <p class="login"> LOGIN</p>
       </div>
+      <div class=" col-lg-2 col-4 accountmargin2">
+        <i class="fas fa-shopping-cart  text-success fontawesome2"></i>
+        <li class="nav-item dropdown list-unstyled">
+          <a href="#" class="nav-link dropdown-toggle my-account2" data-toggle="dropdown" id="dropdown">
+            MY-CART</a>
+
+          <div class="dropdown-menu " aria-labelledby="dropdown">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-md-6 d-none d-md-block cart">
+                  <div class="title">
+                    <div class="row">
+                      <div class="col">
+                        <h4><b>Shopping Cart</b></h4>
+                      </div>
+                      <div class="col align-self-center text-right text-muted">3 items</div>
+                    </div>
+                  </div>
+                  <div class="row border-top border-bottom">
+                    <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
+                      <div class="col">
+                        <div class="row text-muted">Shirt</div>
+                        <div class="row">Cotton T-shirt</div>
+                      </div>
+                      <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                      <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
+                      <div class="col">
+                        <div class="row text-muted">Shirt</div>
+                        <div class="row">Cotton T-shirt</div>
+                      </div>
+                      <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                      <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                  </div>
+                  <div class="row border-top border-bottom">
+                    <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/pHQ3xT3.jpg"></div>
+                      <div class="col">
+                        <div class="row text-muted">Shirt</div>
+                        <div class="row">Cotton T-shirt</div>
+                      </div>
+                      <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                      <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                  </div>
+                  <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span>
+                  </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block summary">
+                  <div>
+                    <h5><b>Summary</b></h5>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col" style="padding-left:2;">ITEMS 3</div>
+                    <div class="col text-right">&euro; 132.00</div>
+                  </div>
+                  <form>
+                    <p>SHIPPING</p> <select>
+                      <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+                    </select>
+                    <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
+                  </form>
+                  <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col">TOTAL PRICE</div>
+                    <div class="col text-right">&euro; 137.00</div>
+                  </div> <button class="btn btn-danger">CHECKOUT</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <p class="join"> JOIN
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row bg-dark">
+    <div class="offset-lg-1 col-8 offset-sm-0">
+      <ul class="nav links2">
+        <li id="drop4" class="nav-item bg-success"><a href="#GATEGORIES"
+            class="nav-link font-weight-bold text-uppercase text-white mt-2">GATEGORIES &nbsp;<i class="fas fa-bars">
+            </i></a>
+          <ul id="drop-list4">
+            <li class="nav-item"> <a class="nav-link" href="category.html"> WOMENS CLOTHES <i
+                  class="fas fa-newspaper btn btn-outline-success"></i></a> </i> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> MENS CLOTHES</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> PHONES & ECCESSORIES</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> COMPUTER & OFFICE</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> CONSUMER ELCTRONICS</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> JEWELARY & WATCHES</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"> BAGES & SHOES</a> </li>
+            <li class="nav-item"><a class="nav-link mb-4" href="#"> VIEW ALL</a> </li>
+          </ul>
+
+        </li>
+
+        <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase mt-2">HOME</a></li>
+        <li class="nav-item"><a href="shop.html" class="nav-link font-weight-bold text-uppercase mt-2">SHOP</a></li>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm"> <a href="#"
+            class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a> <button type="button"
+            data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false"
+            aria-label="Toggle navigation" class="navbar-toggler"> <span class="navbar-toggler-icon"></span> </button>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"
+                  class="nav-link dropdown-toggle font-weight-bold text-uppercase text-white">WOMEN</a>
+                <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                  <div class="row bg-white rounded-0 m-0 shadow-sm">
+                    <div class="col-lg-7 col-xl-8">
+                      <div class="p-4">
+                        <div class="row">
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading one</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading two</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading three</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4 mt-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading four</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                      style="background: center center url(imges/women.jpg)no-repeat; background-size:cover;"></div>
+                  </div>
+                </div>
+          </div>
+        </nav>
+        </li>
+        <li class="nav-item"><a href="product.html" class="nav-link font-weight-bold text-uppercase mt-2">SALES</a>
+        </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm"> <a href="#"
+            class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a> <button type="button"
+            data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false"
+            aria-label="Toggle navigation" class="navbar-toggler"> <span class="navbar-toggler-icon"></span> </button>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"
+                  class="nav-link dropdown-toggle font-weight-bold text-uppercase text-white">MEN</a>
+                <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                  <div class="row bg-white rounded-0 m-0 shadow-sm">
+                    <div class="col-lg-7 col-xl-8">
+                      <div class="p-4">
+                        <div class="row">
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading one</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading two</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading three</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-6 mb-4 mt-4">
+                            <h6 class="font-weight-bold text-uppercase">Heading four</h6>
+                            <ul class="list-unstyled">
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
+                              <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                      style="background: center center url(imges/man.jpg)no-repeat; background-size:cover;"></div>
+                  </div>
+                </div>
+          </div>
+        </nav>
+        </li>
+      </ul>
+
 
 
     </div>
   </div>
 
+  </div>
+  </div>
   <section>
     <div class="container-fluid bg-light" style="box-shadow: 1px 2px 10px red;">
       <div class="row">
